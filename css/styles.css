@@ -1,41 +1,44 @@
 body {
-  margin: 0px;
+  /* margin: 0px; */
+  background-color: whitesmoke;
+  max-width: 80%;
+  
 }    
     
     
     .main-nav {
       width: 100%;
-      background: white;
+      /* background: white; */
       min-height: 30px;
-      padding: 10px;
+      /* padding: 10px; */
       text-align: center;
       display: block;
       font-size: 2em;
-      margin-left: -18px;
-      margin-top: -17px;
+      /* margin-left: -18px;
+      margin-top: -17px; */
     }
 
     .nav {
       width: 100%;
-      background: whitesmoke;
+      /* background: whitesmoke; */
       display: block;
       justify-content: centspace-around;
       font-weight: 700;
       list-style-type: none;
-      margin: 0px;
-      padding: 10px 18px 10px 10px;
+      /* margin: 0px;
+      padding: 10px 18px 10px 10px; */
       font-family: 'Pathway Gothic One', sans-serif;
     }
 
     .nav .name {
       display: block;
-      margin-right: auto;
+      /* margin-right: auto; */
       color: black;
       font-family: 'Courgette', cursive;
     }
 
     .nav li {
-      padding: 5px 10px 10px 10px;
+      /* padding: 5px 10px 10px 10px; */
     } 
 
     .nav a {
@@ -46,48 +49,48 @@ body {
       color: slategray;
     }
  .profile-image img {
-   padding: 5px;
+   /* padding: 0px; */
  }
 
     img{
-      width: 100%;
-      padding: 5px;
+      max-width: 100%;
+      /* padding: 5px; */
     }
 
     .header {
       width: 100%;
-      background: whitesmoke;
+      /* background: whitesmoke; */
       min-height: 300px;
-      margin: 20px;
+      /* margin: 20px;
       margin-left: -8px;
       margin-top: -10px;
-      padding: 10px 18px 10px 10px;
+      padding: 10px 18px 10px 10px; */
       text-align: center;
     }
 
     .header p {
       display: inline-block;
       font-size: 1.5em;
-      padding: 15px -70px 15px 10%;
+      /* padding: 15px -70px 15px 10%; */
     } 
 
      p {
       Width:100%;
       text-align: center;
-      padding: 5px;
+      /* padding: 5px; */
       /* display: inline; */
     }
     
     h1 {
       text-align: center;
-      padding: 30px;
+      /* padding: 30px; */
     }
     
     .portfolio {
-      background-color: white;
-      margin: 0px;
+      /* background-color: white; */
+      /* margin: 0px; */
       text-align: center;
-      width: 100%;
+      /* width: 100%; */
       float: none;
     } 
 
@@ -104,6 +107,10 @@ body {
       text-align: center;
     }
 
+.portfolio .block {
+  background-color: white;
+}
+
     .skills li {
       text-align: center;
       display: inline-block;
@@ -112,9 +119,9 @@ body {
 
     .footer {
       width: 100%;
-      background: whitesmoke;
+      /* background: whitesmoke; */
       min-height: 30px;
-      padding: 10px;
+      /* padding: 10px; */
       text-align: center;
       display: inline;
       text-align: center;
@@ -127,30 +134,30 @@ body {
 
 .main-footer p {
   width: 100%;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
 }
 
     .main-footer .footer-nav {
       width: 95%;
-      background: whitesmoke;
+      /* background: whitesmoke; */
       display: flex;
       justify-content: space-around;
       font-weight: 700;
       list-style-type: none;
-      margin: 0 auto;
+      /* margin: 0 auto; */
     }
 
     .footer-nav .name {
       display: block;
       text-align: left;
-      margin-right: auto;
+      /* margin-right: auto; */
       color: black;
       font-family: 'Courgette', cursive;
       
     }
 
     .footer-nav li {
-      padding: 15px 10px 15px 10px;
+      /* padding: 15px 10px 15px 10px; */
       font-family: 'Pathway Gothic One', sans-serif;
     } 
     .footer-nav a {
@@ -166,6 +173,15 @@ body {
       display: table;
       clear: both;
     }
+
+    .block {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 80%;
+      display: inline-block;
+      background-color: white;
+    }
+
 
 /* Media Queries --------------------*/
 
@@ -190,8 +206,8 @@ body {
         .profile-image {
           float: right;
           width: 450px;
-          margin: 1em;
-          padding: 1em;
+          /* margin: 1em;
+          padding: 1em; */
         }
 
         img{
@@ -201,46 +217,40 @@ body {
     
         .header {
           width: 100%;
-          background: whitesmoke;
+          /* background: whitesmoke; */
           min-height: 300px;
           /* margin: 20px; */
-          margin-left: -8px;
+          /* margin-left: -8px;
           margin-top: -10px;
-          padding: 10px 18px 10px 10px;
+          padding: 10px 18px 10px 10px; */
           text-align: left;
           
         }
     
         .header p {
-          margin-left: 0%;
+          /* margin-left: 0%; */
           display: inline;
           font-size: 1.5em;
           /* padding: 15px -70px 15px 15%; */
         } 
 
-.portfolio-1,
-.portfolio-2,
-.portfolio-3,
-.portfolio-4,
-.portfolio-5,
-.portfolio-6 {
-  display: inline-block;
+.block {
   max-width: 33%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 }
 
 @media (min-width: 1024px) {
 .nav{
   display: flex;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 .profile-image {
   float: right;
   width: 450px;
-  margin: 1em;
-  padding: 1em;
+  /* margin: 1em;
+  padding: 1em; */
 }
 
 img{
@@ -249,10 +259,10 @@ img{
 
 .header {
   width: 100%;
-  background: whitesmoke;
+  /* background: whitesmoke; */
   min-height: 320px;
-  margin-top: -10px;
-  padding: 30px -8px 10px 40px;
+  /* margin-top: -10px;
+  padding: 30px -8px 10px 40px; */
   text-align: left;
 }
 
@@ -261,25 +271,19 @@ img{
   font-size: 1.5em;
 } 
 
-.portfolio-1,
-.portfolio-2,
-.portfolio-3,
-.portfolio-4,
-.portfolio-5,
-.portfolio-6 {
-  display: inline-block;
+.block {
   max-width: 25%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .nav .name {
-  padding-left: 3%;
+  /* padding-left: 3%; */
   width: 50%;
   text-align: left;
 }
 
 .nav li {
-  padding-right: 3%;
+  /* padding-right: 3%; */
 }
 
 .footer-nav {
