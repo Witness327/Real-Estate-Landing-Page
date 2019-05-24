@@ -3,7 +3,10 @@ body {
   background-color: whitesmoke;
   /* max-width: 95%; */
 }    
-    
+
+.container {
+  background-color: white;
+}
     
     .main-nav {
       /* width: 100%; */
