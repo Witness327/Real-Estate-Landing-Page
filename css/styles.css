@@ -1,11 +1,11 @@
 body {
-  /* margin: 0px; */
   background-color: whitesmoke;
-  /* max-width: 95%; */
 }    
 
 .container {
   background-color: white;
+  padding-bottom: 50px;
+  text-align: center;
 }
     
     .main-nav {
@@ -27,26 +27,35 @@ body {
       /* justify-content: centspace-around; */
       font-weight: 700;
       list-style-type: none;
-      margin: 0px 0px 40px 0px;
+      /* margin: 0px auto; */
       /* padding: 10px 18px 10px 10px; */
       font-family: 'Pathway Gothic One', sans-serif;
     }
 
     .nav .name {
+      background-color: whitesmoke;
       font-size: 50px;
       display: block;
-      margin-top: 15px;
+      margin-top: 0px;
+      /* margin-top: 5px; */
+      padding-bottom: 20px;
       margin-right: auto;
       color: black;
       font-family: 'Courgette', cursive;
     }
 
     .nav li {
-      
+      background-color: white;
       padding: 5px 10px 10px 10px;
+      margin: 6px;
     } 
+ul {
+  padding: 6px;
+}
 
     .nav a {
+      /* display: block; */
+      text-transform: uppercase;
       text-decoration: none;
       transition: all .5s;
     }
@@ -116,6 +125,7 @@ body {
 
     .portfolio p {
       text-align: center;
+      /* padding: 25px 50px 30px; */
     }
     
     h2 {
@@ -197,10 +207,14 @@ body {
 
     .block {
       text-align: center;
-      margin: 0 auto;
+      /* margin: 0 auto; */
       /* max-width: 80%; */
       display: inline-block;
       background-color: white;
+    }
+
+    .block p {
+      padding: 20px 60px 20px;
     }
 
 
@@ -217,6 +231,7 @@ body {
 
         .nav li {
           display: inline-block;
+          background-color: whitesmoke;
         } 
         
         .nav{
@@ -255,6 +270,7 @@ body {
           padding: 15px 0px 15px 15%;
         } 
 
+            
 .block {
   max-width: 40%;
   padding: 20px;
@@ -264,7 +280,7 @@ body {
 @media (min-width: 1024px) {
 .nav{
   display: flex;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 .profile-image {
@@ -305,6 +321,7 @@ img{
 
 .nav li {
   padding-right: 3%;
+  background-color: whitesmoke;
 }
 
 .footer-nav {
