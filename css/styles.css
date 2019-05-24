@@ -95,7 +95,7 @@ body {
     h1 {
       /* margin-bottom: 30px; */
       text-align: center;
-      padding: 60px 30px;
+      padding: 60px 30px 10px;
       background-color: white;
     }
 
