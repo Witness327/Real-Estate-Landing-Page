@@ -126,6 +126,7 @@ img p {
     .skills {
       /* background-color: white; */
       margin: 6px;
+      font-size: 1.25em;
     }
 
     
@@ -180,6 +181,7 @@ img p {
     }
 
     .mobile-view .name {
+      font-size: 1.25em;
       display: block;
       text-align: left;
       margin-right: auto;
@@ -193,6 +195,7 @@ img p {
     }
 
     .mobile-view a {
+      font-size: 1.25em;
       text-transform: uppercase;
       text-decoration: none;
       transition: all .5s;
@@ -284,6 +287,7 @@ img p {
 }
 
 .footer-nav .name {
+  font-size: 1.25em;
   display: block;
   text-align: left;
   margin-right: auto;
@@ -292,6 +296,7 @@ img p {
 }
 
 .footer-nav li {
+  font-size: 1.25em;
   padding: 15px 10px 15px 10px;
   font-family: 'Pathway Gothic One', sans-serif;
 }
@@ -364,6 +369,7 @@ img p {
 }
 
 .footer-nav .name {
+  font-size: 1.25em;
   display: block;
   text-align: left;
   margin-right: auto;
@@ -372,6 +378,7 @@ img p {
 }
 
 .footer-nav li {
+  font-size: 1.25em;
   padding: 15px 10px 15px 10px;
   font-family: 'Pathway Gothic One', sans-serif;
 }
