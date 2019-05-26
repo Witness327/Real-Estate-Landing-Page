@@ -20,6 +20,7 @@ body {
       font-weight: 700;
       list-style-type: none;
       font-family: 'Pathway Gothic One', sans-serif;
+      
     }
 
     .nav .name {
@@ -37,7 +38,8 @@ body {
       background-color: white;
       padding: 5px 10px 10px 10px;
       margin: 6px;
-    } 
+    }
+
 ul {
   padding: 6px;
 }
@@ -49,8 +51,12 @@ ul {
     }
 
     .nav a:hover {
-      color: slategray;
+      color: rgba(112, 128, 144, 0.575);
     }
+
+    /* .nav a:visited {
+      color: black;
+    } */
 
  .profile-image img {
    padding: 0px;
@@ -61,10 +67,12 @@ ul {
       max-width: 95%;
       padding: 30px 0px 20px;
     }
+
 img p {
   text-align: center;
   padding: 20px 100px 20px;
 }
+
     .header {
       background: whitesmoke;
       min-height: 300px;
@@ -81,6 +89,7 @@ img p {
       text-align: center;
       display: inline;
       padding: 20px 40px;
+     
     }
     
     h1 {
@@ -89,9 +98,8 @@ img p {
       background-color: white;
     }
 
-    .block img {
-      /* padding-top: 50px;
-      margin-top: 15px; */
+    .block p {
+      /* Padding: 20px; */
 
     }
     
@@ -115,24 +123,31 @@ img p {
       text-align: center;
     }
 
-.portfolio .block {
-  background-color: white;
-  /* text-align: center; */
-}
-
-
-    .skills li {
-      /* text-align: center; */
-      
-      display: inline;
-      margin-left: 25px;
-      padding-left: 25px;
-      /* width: 100%; */
+    .skills {
+      /* background-color: white; */
+      margin: 6px;
     }
 
+    
+
+.portfolio .block {
+  background-color: white;
+}
+
+.skills li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-left: 25px;
+  padding: 15px;
+  font-weight: 600;
+  /* list-style-type: none; */
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+   /* text-decoration: none; */
+   /* border: 3px solid slategray; */
+}
+
     .footer {
-      /* width: 100%; */
-      /* background: whitesmoke; */
       min-height: 30px;
       padding: 10px;
       text-align: center;
@@ -146,7 +161,6 @@ img p {
 }
 
 .main-footer p {
-  /* width: 100%; */
   text-align: center;
   padding: 10px 0px;
   display: block;
@@ -155,12 +169,13 @@ img p {
 .footer-nav {
   display: none;
 }
+
     .mobile-view {
       display: flex;
       justify-content: space-around;
       font-weight: 700;
       list-style-type: none;
-      margin: 0 auto;
+      margin: 6px;
       border-top: 1px solid rgba(112, 128, 144, 0.575);
     }
 
@@ -184,7 +199,7 @@ img p {
     }
 
     .mobile-view a:hover {
-      color: slategray;
+      color: rgba(112, 128, 144, 0.575);
     }
 
     .group:after {
@@ -195,27 +210,22 @@ img p {
 
     .block {
       text-align: center;
-      /* margin: 0 auto; */
-      /* max-width: 80%; */
       display: inline-block;
       background-color: white;
-    }
-
-    
+    }    
 
     p {
       text-align: center;
     }
 
 
-/* Media Queries --------------------*/
+/*------------------------ Media Queries --------------------*/
 
-
+/* Tablet View --------------------*/
       @media (min-width: 768px) and (max-width: 1023px) {
         .nav .name {
           display: block;
           color: black;
-          /* width: 100%; */
           padding-left: 0%;
         }
 
@@ -226,40 +236,34 @@ img p {
         
         .nav{
           display: inline-block;
-          /* width: 100%; */
         }
 
         .profile-image {
           float: right;
-          /* width: 450px; */
-          margin: 1em;
-          padding: 1em;
+          padding: 7px 5px 0px 20px;
         }
 
         img{
           /* width: 1%; */
-          padding: 20px;
+          /* padding: 0px 15px 20px; */
         }
     
         .header {
-          /* width: 100%; */
-          background: whitesmoke;
-          min-height: 300px;
-          margin: 20px;
+          /* background: whitesmoke;
+          min-height: 300px; */
+          /* margin: 20px;
           margin-left: -8px;
           margin-top: -10px;
-          padding: 10px 18px 10px 10px;
-          text-align: left;
-          
+          padding: 10px 18px 10px 10px; */
+          /* text-align: left; */
         }
     
         .header p {
-          margin-left: 5%;
-          display: inline;
-          font-size: 1.5em;
-          padding: 15px 0px 15px 15%;
+         display: block;
+         font-size: 1.5em;
+         padding: 0px 5px 0px 50px;
+         text-align: left;
         } 
-
             
 .block {
   max-width: 40%;
@@ -275,7 +279,7 @@ img p {
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 6px;
   border-top: 1px solid rgba(112, 128, 144, 0.575);
 }
 
@@ -299,40 +303,35 @@ img p {
 }
 
 .footer-nav a:hover {
-  color: slategray;
+  color: rgba(112, 128, 144, 0.575);
 }
 }
 
+
+/* Desktop View --------------------*/
 @media (min-width: 1024px) {
 .nav{
   display: flex;
-  /* padding-top: 5%; */
 }
 
 .profile-image {
   float: right;
-  /* width: 450px; */
-  margin: 1em;
-  padding: 1em;
-}
-
-img{
-  /* width: 100%; */
+  padding: 25px 5px 0px 20px;
+  
 }
 
 .header {
-  /* width: 100%; */
-  /* background: whitesmoke; */
   min-height: 320px;
-  margin-top: -10px;
-  /* padding: 30px -8px 10px 40px; */
+  margin-top: 0px;
   text-align: left;
 }
 
 .header p {
-  display: inline;
+  display: block;
   font-size: 1.5em;
-} 
+  /* padding-right: 10px; */
+  text-align: left;
+ } 
 
 .block {
   max-width: 25%;
@@ -360,7 +359,7 @@ img{
   justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 6px;
   border-top: 1px solid rgba(112, 128, 144, 0.575);
 }
 
@@ -384,7 +383,7 @@ img{
 }
 
 .footer-nav a:hover {
-  color: slategray;
+  color: rgba(112, 128, 144, 0.575);
 }
 }
 
