@@ -136,11 +136,12 @@ img p {
 }
 
 .skills li {
+  font-size: 1em;
   display: inline-block;
   margin-left: 25px;
   padding-left: 25px;
   padding: 15px;
-  font-weight: 600;
+  font-weight: bold;
   /* list-style-type: none; */
   font-family: 'Pathway Gothic One', sans-serif;
   text-transform: uppercase;
@@ -181,7 +182,7 @@ img p {
     }
 
     .mobile-view .name {
-      font-size: 1.25em;
+      font-size: 1.5em;
       display: block;
       text-align: left;
       margin-right: auto;
@@ -205,11 +206,15 @@ img p {
       color: rgba(112, 128, 144, 0.575);
     }
 
-    .group:after {
+    .group::after {
       content: "";
       display: table;
       clear: both;
     }
+
+    /* .group {
+      overflow: auto;
+    } */
 
     .block {
       text-align: center;
@@ -287,7 +292,7 @@ img p {
 }
 
 .footer-nav .name {
-  font-size: 1.25em;
+  font-size: 1.5em;
   display: block;
   text-align: left;
   margin-right: auto;
@@ -369,7 +374,7 @@ img p {
 }
 
 .footer-nav .name {
-  font-size: 1.25em;
+  font-size: 1.5em;
   display: block;
   text-align: left;
   margin-right: auto;
