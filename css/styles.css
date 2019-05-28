@@ -6,9 +6,9 @@ body {
 .container {
   background-color: white;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: center;  
 }
-    
+
     .main-nav {
       text-align: center;
       display: block;
@@ -19,8 +19,7 @@ body {
       display: block;
       font-weight: 700;
       list-style-type: none;
-      font-family: 'Pathway Gothic One', sans-serif;
-      
+      font-family: 'Pathway Gothic One', sans-serif;      
     }
 
     .nav .name {
@@ -53,22 +52,16 @@ ul {
     .nav a:hover {
       color: rgba(112, 128, 144, 0.575);
     }
-
-    /* .nav a:visited {
-      color: black;
-    } */
-
+   
  .profile-image img {
    padding: 0px;
- }
+}
 
  /* This <img> targets all the project images --------------------*/
     img{
       max-width: 95%;
-      padding: 30px 0px 20px;
+      padding: 30px 10px 20px;
     }
-
-
 
 img p {
   text-align: center;
@@ -90,8 +83,7 @@ img p {
      p {
       text-align: center;
       display: inline;
-      padding: 20px 40px;
-     
+      padding: 20px 40px;     
     }
     
     h1 {
@@ -100,10 +92,10 @@ img p {
       background-color: white;
     }
 
-    .block p {
-      /* Padding: 20px; */
-
-    }
+    h2 {
+      text-align: center;
+      margin: 10px 0px 5px;
+    }    
     
     .portfolio {
       background-color: white;
@@ -119,20 +111,14 @@ img p {
     }
 
     .block p {
-      padding: 20px 0px 60px;
-    }
-    
-    h2 {
-      text-align: center;
+      padding: 0px 20px 15px;
     }
 
-             
     p {
       text-align: center;
     }
 
-    .skills {
-      /* background-color: white; */
+    .skills {     
       margin: 6px;
       font-size: 1.25em;
     }
@@ -147,12 +133,9 @@ img p {
   margin-left: 25px;
   padding-left: 25px;
   padding: 15px;
-  font-weight: bold;
-  /* list-style-type: none; */
+  font-weight: bold;  
   font-family: 'Pathway Gothic One', sans-serif;
-  text-transform: uppercase;
-   /* text-decoration: none; */
-   /* border: 3px solid slategray; */
+  text-transform: uppercase;  
 }
 
     .footer {
@@ -210,14 +193,8 @@ img p {
 
     .mobile-view a:hover {
       color: rgba(112, 128, 144, 0.575);
-    }
-
-    
-
-    /* .group {
-      overflow: auto;
-    } */
-
+    } 
+   
     .block {
       text-align: center;
       display: inline-grid;
@@ -254,20 +231,9 @@ img p {
         }
 
         img{
-          /* width: 1%; */
-          /* padding: 0px 15px 20px; */
-        }
-    
-        .header {
-          /* background: whitesmoke;
-          min-height: 300px; */
-          /* margin: 20px;
-          margin-left: -8px;
-          margin-top: -10px;
-          padding: 10px 18px 10px 10px; */
-          /* text-align: left; */
-        }
-    
+          padding: 30px 7.5px 20px;
+        }    
+         
         .header p {
          display: block;
          font-size: 1.5em;
@@ -319,7 +285,6 @@ img p {
 }
 }
 
-
 /* Desktop View --------------------*/
 @media (min-width: 1024px) {
 .nav{
@@ -328,8 +293,7 @@ img p {
 
 .profile-image {
   float: right;
-  padding: 25px 5px 0px 20px;
-  
+  padding: 25px 5px 0px 20px;  
 }
 
 .header {
@@ -341,7 +305,6 @@ img p {
 .header p {
   display: block;
   font-size: 1.5em;
-  /* padding-right: 10px; */
   text-align: left;
  } 
 
