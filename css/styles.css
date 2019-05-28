@@ -68,6 +68,8 @@ ul {
       padding: 30px 0px 20px;
     }
 
+
+
 img p {
   text-align: center;
   padding: 20px 100px 20px;
@@ -110,8 +112,14 @@ img p {
       padding-top: 5px;
     } 
 
+    .group:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
     .block p {
-      padding: 20px 00px 60px;
+      padding: 20px 0px 60px;
     }
     
     h2 {
@@ -128,9 +136,7 @@ img p {
       margin: 6px;
       font-size: 1.25em;
     }
-
-    
-
+  
 .portfolio .block {
   background-color: white;
 }
@@ -206,11 +212,7 @@ img p {
       color: rgba(112, 128, 144, 0.575);
     }
 
-    .group::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
+    
 
     /* .group {
       overflow: auto;
@@ -218,7 +220,7 @@ img p {
 
     .block {
       text-align: center;
-      display: inline-block;
+      display: inline-grid;
       background-color: white;
     }    
 
