@@ -33,6 +33,14 @@ body {
       font-family: 'Courgette', cursive;
     }
 
+    .realtor-title {
+      font-family: 'Courgette', cursive;
+      text-align: center;
+      display: block;
+      font-size: 2em;
+      padding-bottom: 20px;
+    }
+
     .nav li {
       background-color: white;
       padding: 5px 10px 10px 10px;
@@ -215,11 +223,13 @@ img p {
           display: block;
           color: black;
           padding-left: 0%;
+          padding-top: 0%;
         }
 
         .nav li {
           display: inline-block;
           background-color: whitesmoke;
+          padding-top: 5%;
         } 
         
         .nav{
@@ -228,11 +238,14 @@ img p {
 
         .profile-image {
           float: right;
-          padding: 7px 5px 0px 20px;
+          padding: 7px 0px 0px 20px;
+          width: 25%;
         }
 
         img{
           padding: 30px 7.5px 20px;
+          text-align: right;
+          margin-top: 0px;
         }    
          
         .header p {
