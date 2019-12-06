@@ -385,6 +385,14 @@ button[type="submit"] {
   padding: 0px 5px 0px 20px;  
 }
 
+header {
+  background: url('images/canal.jpg') no-repeat top center ;
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 .header {
   min-height: 320px;
   margin-top: 0px;
