@@ -114,6 +114,22 @@ img p {
       padding-top: 5px;
     } 
 
+    /*-----SUBMIT BUTTON------------ */
+button[type="submit"] {
+  font-size: 1.5em;
+  padding: 20px 20px;
+  cursor: pointer;
+  background-color: #52bab3;
+  color: white;
+  width: 95%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  outline: none;  
+}
+
+
     .group:after {
       content: "";
       display: table;
