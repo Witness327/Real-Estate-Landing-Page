@@ -50,7 +50,8 @@ body {
       text-align: center;
       display: block;
       font-size: 6em;
-      padding-bottom: 20px;
+      margin: 0px;
+ 
     }
 
     .nav li {
@@ -82,6 +83,8 @@ ul {
   text-align: center;
   display: block;
   font-size: 4em;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
  /* This <img> targets all the project images --------------------*/
@@ -126,6 +129,7 @@ img p {
       /* padding: 40px 30px 10px; */
       padding-bottom: 10px;
       background-color: white;
+      margin-bottom: -15px;
     }
 
     h2 {
