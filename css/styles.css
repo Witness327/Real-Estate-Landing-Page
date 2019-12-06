@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
 }    
 
@@ -13,17 +13,19 @@ body {
       text-align: center;
       display: block;
       font-size: 2em;
+      margin-top: 0px;
     }
 
     .nav {
       display: block;
       font-weight: 700;
       list-style-type: none;
-      font-family: 'Pathway Gothic One', sans-serif;      
+      font-family: 'Pathway Gothic One', sans-serif;  
+      margin-top: 0px;    
     }
 
     .nav .name {
-      background-color: whitesmoke;
+      background-color: white;
       font-size: 50px;
       display: block;
       margin-top: 0px;
@@ -77,7 +79,7 @@ img p {
 }
 
     .header {
-      background: whitesmoke;
+      background: white;
       min-height: 300px;
       text-align: center;
     }
@@ -129,7 +131,7 @@ img p {
     .skills {     
       padding: 20px;
       font-size: 1.30em;
-      color: rgb(94, 3, 94);
+      color: black;
     }
   
 .portfolio .block {
@@ -201,7 +203,7 @@ img p {
     }
 
     .mobile-view a:hover {
-      color: rgba(112, 128, 144, 0.575);
+      color: red;
     } 
    
     .block {
@@ -228,7 +230,7 @@ img p {
 
         .nav li {
           display: inline-block;
-          background-color: whitesmoke;
+          background-color: white;
           padding-top: 5%;
         } 
         
@@ -335,7 +337,7 @@ img p {
 
 .nav li {
   padding-right: 3%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .mobile-view {
