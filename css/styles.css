@@ -1,7 +1,8 @@
-/* * {
-  box-sizing: border-box;
-} */
 
+.non-mobile-view {
+  display: none;
+
+}
 body {
   background-color: white;
   text-align: center;
@@ -28,22 +29,27 @@ body {
       margin-top: 0px;    
     }
 
+    p .name {
+      font-family: 'Vidaloka', serif;
+      font-size: 2em;
+    }
+
     .nav .name {
       background-color: white;
-      font-size: 50px;
+      font-size: 2em;
       display: block;
       margin-top: 0px;
       padding-bottom: 20px;
       margin-right: auto;
       color: black;
-      font-family: 'Courgette', cursive;
+      font-family: 'Vidaloka', serif;
     }
 
     .realtor-title {
-      font-family: 'Courgette', cursive;
+      font-family: 'Vidaloka', serif;
       text-align: center;
       display: block;
-      font-size: 2em;
+      font-size: 6em;
       padding-bottom: 20px;
     }
 
@@ -71,6 +77,13 @@ ul {
    padding: 0px;
 }
 
+.profile-image p {
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+  display: block;
+  font-size: 4em;
+}
+
  /* This <img> targets all the project images --------------------*/
     img{
       max-width: 95%;
@@ -80,6 +93,8 @@ ul {
 img p {
   text-align: center;
   padding: 20px 100px 20px;
+  
+
 }
 
     .header {
@@ -88,7 +103,7 @@ img p {
       text-align: center;
     }
 
-    .header p {
+    p {
       display: inline-block;
       font-size: 1.5em;
       padding: 20px 40px;
@@ -102,7 +117,8 @@ img p {
     
     h1 {
       text-align: center;
-      padding: 60px 30px 10px;
+      /* padding: 40px 30px 10px; */
+      padding-bottom: 10px;
       background-color: white;
     }
 
@@ -211,7 +227,7 @@ button[type="submit"] {
       text-align: left;
       margin-right: auto;
       color: black;
-      font-family: 'Courgette', cursive;
+      font-family: 'Vidaloka', serif;
     }
 
     .mobile-view li {
@@ -245,6 +261,10 @@ button[type="submit"] {
 
 /* Tablet View --------------------*/
       @media (min-width: 768px) {
+        /* * {
+          box-sizing: border-box;
+        } */
+
         .nav .name {
           display: block;
           color: black;
@@ -269,16 +289,21 @@ button[type="submit"] {
         }
 
         img{
-          padding: 30px 7.5px 20px;
-          text-align: right;
-          margin-top: 0px;
-        }    
+          max-width: 95%;
+          padding: 30px 10px 0px 15px;
+        } 
          
         .header p {
          display: block;
          font-size: 1.5em;
          padding: 0px 5px 0px 50px;
          text-align: left;
+        } 
+        .portfolio {
+          /* background-color: white;
+          text-align: center;
+          float: none; */
+          padding-top: 300px;
         } 
             
 .block {
@@ -289,9 +314,12 @@ button[type="submit"] {
 .mobile-view {
   display: none;
 }
-/* button[type="submit"] {
-  width: 50%;
-} */
+
+button[type="submit"] {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
 
 .footer-nav {
   display: flex;
@@ -300,6 +328,7 @@ button[type="submit"] {
   list-style-type: none;
   margin: 6px;
   border-top: 1px solid rgba(112, 128, 144, 0.575);
+  font-family: 'Vidaloka', serif;
 }
 
 .footer-nav .name {
@@ -308,7 +337,7 @@ button[type="submit"] {
   text-align: left;
   margin-right: auto;
   color: black;
-  font-family: 'Courgette', cursive;
+  font-family: 'Vidaloka', serif;
 }
 
 .footer-nav li {
@@ -360,6 +389,7 @@ button[type="submit"] {
   padding-left: 3%;
   width: 50%;
   text-align: left;
+  font-family: 'Vidaloka', serif;
 }
 
 .nav li {
@@ -368,10 +398,9 @@ button[type="submit"] {
 }
 
 button[type="submit"] {
-  width: 25%;
+  width: 100%;
   display: block;
   text-align: center;
-
 }
 
 .mobile-view {
@@ -394,7 +423,7 @@ button[type="submit"] {
   text-align: left;
   margin-right: auto;
   color: black;
-  font-family: 'Courgette', cursive;
+  font-family: 'Vidaloka', serif;
 }
 
 .footer-nav li {
