@@ -115,19 +115,19 @@ img p {
     } 
 
     /*-----SUBMIT BUTTON------------ */
-.button {
-  font-size: 1.5em;
-  padding: 20px 20px;
-  cursor: pointer;
-  background-color: lightskyblue;
-  color: white;
-  width: 95%;
-  border-radius: 5px;
-  border: none;
-  margin-top: 10px; 
-  margin-bottom: 20px; 
-  outline: none;  
-}
+    button[type="submit"] {
+      font-size: 1.5em;
+      padding: 20px 20px;
+      cursor: pointer;
+      background-color: #52bab3;
+      color: white;
+      width: 95%;
+      border-radius: 5px;
+      border: none;
+      margin-top: 10px; 
+      margin-bottom: 20px; 
+      outline: none;  
+  }
 
 
     .group:after {
