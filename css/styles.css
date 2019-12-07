@@ -90,10 +90,11 @@ ul {
 
 .profile-image p {
   font-family: 'Vidaloka', serif;
-  text-align: center;
+  /* text-align: center;
+  justify-content: center; */
   display: block;
-  font-size: 2.5em;
-  margin-bottom: 15px;
+  font-size: 3.5em;
+  margin-bottom: 0px;
 }
 
  /* This <img> targets all the project images --------------------*/
@@ -314,26 +315,39 @@ button[type="submit"] {
         .profile-image {
           width: 16%;
           margin-top: -5%;
-          margin-left: 86px;
+          margin-left: 30px;
           /* margin-top: -20%;
           margin-right: 61px; */
           float: left;
-          font-weight: bold;
-          
-          
-        }
+          font-weight: bold;   
+          text-align: center;      
+          }
+
+          .profile-image p {
+            font-family: 'Vidaloka', serif;
+            /* text-align: left;
+            justify-content: left;
+            display: inline; */
+            font-size: 1.7em;
+            margin-bottom: 0px;
+          }
+
+          .profile-image img {
+            display: block;  
+          }
 
         .realtor-title {
           text-align: center;
-          font-size: 1em;
-          background: gray;                   
+          font-size: 1em;                 
+        }
+
+        .portfolio {
+          padding-top: 0px;
         }
 
         img{
           padding: 30px 10px 0px 15px;       
         } 
-
-
 
         .image {
           border: 5px solid grey;
@@ -353,7 +367,7 @@ button[type="submit"] {
          padding: 0px 5px 0px 50px;         
         } 
         .portfolio {
-          padding-top: 300px;
+          padding-top: 0px;
         } 
             
 .block {
@@ -426,27 +440,30 @@ button[type="submit"] {
 .realtor-title {
   padding: 0px;
   margin: 0px;
+  background: gray;
 }
 
-.profile-image {
-  float: left;
-  text-align: center;
-  /* background: url("../images/headshot-1987.jpeg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: contain;
-  
-  /* padding: 0px;
-  margin: 0px; */
-    
-  
-}
+  .profile-image {
+    width: 16%;
+    margin-top: 1.5%;
+    margin-left: 86px;
+    /* margin-top: -20%;
+    margin-right: 61px; */
+    float: left;
+    font-weight: bold;  
+    text-align: center;        
+    }
+
+    .profile-image p {
+      font-family: 'Vidaloka', serif;
+      display: block;
+      font-size: 2.3em;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+
 .profile-image img {
-  display: block;
-  /* margin: 0px; */
-  /* padding-right: 20px; */
-  /* padding-right: 1px;
-  padding-left: 1px; */
+  display: block;  
 }
 
 header {
@@ -484,6 +501,7 @@ h1 {
 .portfolio {
   padding-top: 0px;
 }
+
 .block {
   max-width: 25%;
   padding: 20px;
