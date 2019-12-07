@@ -95,6 +95,9 @@ ul {
   display: block;
   font-size: 3.5em;
   margin-bottom: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+  padding: 0px;
 }
 
  /* This <img> targets all the project images --------------------*/
@@ -330,7 +333,23 @@ button[type="submit"] {
             display: inline; */
             font-size: 1.7em;
             margin-bottom: 0px;
+            background: whitesmoke;
           }
+
+          
+
+          /* .profile-image p {
+            font-family: 'Vidaloka', serif; */
+            /* text-align: center;
+            justify-content: center; */
+            /* display: block;
+            font-size: 3.5em;
+            margin-bottom: 0px; */
+            /* padding-left: 0px;
+            padding-right: 0px; */
+            /* padding: 0px;
+            background: gray;
+          } */
 
           .profile-image img {
             display: block;  
@@ -446,10 +465,10 @@ button[type="submit"] {
 
   .profile-image {
     width: 16%;
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
     margin-left: 86px;
-    /* margin-top: -20%;
-    margin-right: 61px; */
+    margin-top: 8%;
+    /* margin-right: 61px; */
     float: left;
     font-weight: bold;  
     text-align: center;        
