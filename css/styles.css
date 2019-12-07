@@ -338,7 +338,8 @@ button[type="submit"] {
 
         .realtor-title {
           text-align: center;
-          font-size: 1em;                 
+          font-size: 1em;  
+          width: 95%;               
         }
 
         .portfolio {
@@ -350,7 +351,7 @@ button[type="submit"] {
         } 
 
         .image {
-          border: 5px solid grey;
+          /* border: 5px solid grey; */
         }
 
         h1 {
