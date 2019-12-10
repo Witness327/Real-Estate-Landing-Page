@@ -19,7 +19,7 @@ body{
       display: block;
       font-size: 2em;
       margin-top: 0px; 
-      color: slategray;     
+      color: black;     
     }
 
     .nav {
@@ -32,7 +32,11 @@ body{
     }
 
     .nav li {
-      color: slategray;
+      color: black;
+    }
+
+    a:link {
+      color: black;
     }
 
     a:visited {
@@ -433,7 +437,10 @@ button[type="submit"] {
 }
 
 .footer-nav a:hover {
-  color: rgba(112, 128, 144, 0.575);
+  color: black;
+}
+a:link {
+  color: black;
 }
 }
 
@@ -445,6 +452,10 @@ button[type="submit"] {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: contain;
+  }
+
+  a:link {
+    color: black;
   }
 
 .nav{
@@ -575,7 +586,7 @@ button[type="submit"] {
 }
 
 .footer-nav a:hover {
-  color: rgba(112, 128, 144, 0.575);
+  color:black);
 }
 }
 
