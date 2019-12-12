@@ -9,7 +9,7 @@ body{
 
 .container {
   background-color: transparent;
-  padding-bottom: 25px;
+  padding-bottom: 0px;
   text-align: center;    
 }
 
@@ -515,7 +515,7 @@ h1 {
   /* padding: 40px 30px 10px; */
   padding-bottom: 0px;
   margin-bottom: -15px;
-  padding-top: 25%;
+  padding-top: 15%;
 }
 
 .about {
