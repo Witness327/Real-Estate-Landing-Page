@@ -299,6 +299,7 @@ button[type="submit"] {
         img{
           max-width: 100%;
           padding-bottom: 0px;
+          padding-top: 25px;
           /* padding-left: 0%; */
         }
 
@@ -375,13 +376,10 @@ button[type="submit"] {
           padding-top: 0px;
         }
 
-        /* img .img {
-          padding: 0px 0px 0px 0px;
-          margin-left: 0px;
-          padding-left: 0px;       
-        }  */
+  
 
         h1 {
+          /* margin-top: 250px; */
           margin-top: 340px;
           padding-top: 4%;
         }
@@ -550,8 +548,11 @@ h1 {
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: -15px;
-  padding-top: 24%;
+  padding-top: 30%;
+  /* margin-top: 340px;
+  padding-top: 4%; */
 }
+
 
 .about {
   margin-top: 15px;
