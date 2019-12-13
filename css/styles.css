@@ -499,7 +499,7 @@ a:link {
     .non-mobile-profile-image {
       width: 16%;
       margin-left: 0px;
-      margin-top: 130px;
+      margin-top: 140px;
       float: left;
       font-weight: bold;  
       text-align: center; 
@@ -515,6 +515,7 @@ a:link {
 
     .img {
       padding-left: 0%;
+      padding-bottom: 0px;
     }
 
 /* .profile-image img {
