@@ -89,7 +89,10 @@ ul {
     }
    
  .profile-image img {
-   padding: 0px;
+   /* padding: 10px 1% 2.5% 10px; */
+   text-align: center;
+   /* padding-left: 2%;
+   padding-right: 2.5%; */
 }
 
 .profile-image p {
@@ -107,7 +110,7 @@ ul {
  /* This <img> targets all the project images --------------------*/
     img{
       max-width: 95%;
-      padding: 30px 10px 20px;
+      padding: 30px 2.5% 20px;
     }
 
 img p {
@@ -242,8 +245,11 @@ button[type="submit"] {
       display: flex;
       justify-content: space-around;
       font-weight: 700;
-      list-style-type: none;
-      margin: 6px;
+      list-style-type: none;     
+      
+    }
+
+    .border-top {
       border-top: 1px solid rgba(112, 128, 144, 0.575);
     }
 
